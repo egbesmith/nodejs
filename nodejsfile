@@ -1,7 +1,7 @@
 node{
   stage('CodeCheckout'){
     sh "echo running ebay nodeJS project" 
-    git 'https://github.com/LandmakTechnology/nodejs-application'
+    git 'https://github.com/egbesmith/nodejs'
   }
   stage('UnitTest'){
     //sh "npm test"
